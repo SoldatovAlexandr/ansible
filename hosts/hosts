@@ -1,0 +1,6 @@
+[lb]
+loadbalancing ansible_ssh_host=51.250.67.90
+
+[app]
+app1 ansible_ssh_host=158.160.115.50
+app2 ansible_ssh_host=51.250.90.172

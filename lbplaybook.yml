@@ -1,0 +1,8 @@
+---
+- hosts: lb
+  become: true
+  become_method: sudo
+  become_user: root
+  remote_user: asoldatov
+  roles:
+    - nginx 
